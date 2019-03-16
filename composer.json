@@ -1,0 +1,28 @@
+{
+  "name": "front-controller",
+  "description": "design pattern front controller",
+  "version": "1.0.0",
+  "type": "framework",
+  "keywords": [
+    "design pattern",
+    "front controller",
+    "api",
+    "rest"
+  ],
+  "authors": [
+    {
+      "name": "Dionisio Gabriel Rigo de Souza Machado",
+      "email": "diomac13@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/diomac"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "firebase/php-jwt": "5.0.0",
+    "diomac/php-api-rest": "^2.0.1",
+    "predis/predis": "^1.1",
+    "ext-mysqli": "*"
+  },
+  "license": "MIT"
+}
