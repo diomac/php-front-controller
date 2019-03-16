@@ -18,7 +18,7 @@ abstract class AppConfig
      * @param string $environment
      * @return AppConfig
      */
-    public abstract static function config(string $environment): AppConfig;
+    abstract public static function config(string $environment): AppConfig;
 
     /**
      * @return string

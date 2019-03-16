@@ -1,13 +1,16 @@
 {
   "name": "front-controller",
-  "description": "design pattern front controller",
+  "description": "Design pattern front controller",
   "version": "1.0.0",
   "type": "framework",
   "keywords": [
     "design pattern",
     "front controller",
     "api",
-    "rest"
+    "rest",
+    "rest full",
+    "jwt",
+    "redis"
   ],
   "authors": [
     {
