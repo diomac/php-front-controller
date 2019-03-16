@@ -25,19 +25,26 @@ define(
  */
 function autoload(string $className): void
 {
+    $sysConfig = SystemConfig::sysConfig();
+    $projectName = $sysConfig->getProjectName();
+
+    $len = strlen($projectName);
+    if (strncmp($projectName, $className, $len) !== 0) {
+        return;
+    }
+
     $root_class = unserialize(ROOT_CLASS);
     $path = str_replace(['\\'], DIRECTORY_SEPARATOR, $className);
 
     if (isset($root_class[$className])) {
         $file = ROOT_DIR . $root_class[$className] . $path . '.php';
     } else {
-        $sysConfig = SystemConfig::sysConfig();
-        $projectName = $sysConfig->getProjectName();
         $path = str_replace($projectName . '/', '', $path);
         $file = ROOT_DIR . $path . '.php';
     }
 
     if (file_exists($file)) {
-        include $file;
+        /** @noinspection PhpIncludeInspection */
+        require $file;
     }
 }
