@@ -6,7 +6,7 @@
  * Time: 10:34
  */
 
-include '../../init.php';
+include '../../bootstrap.php';
 
 if (!@include('../../vendor/autoload.php')) {
     die('Could not find autoloader');

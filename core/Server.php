@@ -6,7 +6,7 @@
  * Time: 12:39
  */
 
-class System
+abstract class Server
 {
     public static function init()
     {

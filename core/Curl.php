@@ -6,7 +6,7 @@
  * Time: 12:38
  */
 
-class Curl
+abstract class Curl
 {
 
 }

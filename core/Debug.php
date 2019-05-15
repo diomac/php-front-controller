@@ -6,7 +6,7 @@
  * Time: 12:50
  */
 
-class Debug
+abstract class Debug
 {
     public static function d($any): void
     {

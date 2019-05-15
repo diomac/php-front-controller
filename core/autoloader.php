@@ -10,12 +10,12 @@ define(
     'ROOT_CLASS',
     serialize(
         [
-            'AppConfig' => 'config/',
+            'AppConfig' => 'core/config/',
             'SystemConfig' => 'config/',
-            'Auth' => 'core/',
+            'Auth' => 'core/authentication',
             'Curl' => 'core/',
             'Debug' => 'core/',
-            'System' => 'core/'
+            'Server' => 'core/'
         ]
     )
 );

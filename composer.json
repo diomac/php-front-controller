@@ -2,7 +2,7 @@
   "name": "front-controller",
   "description": "Design pattern front controller",
   "version": "1.0.0",
-  "type": "framework",
+  "type": "project",
   "keywords": [
     "design pattern",
     "front controller",
@@ -26,6 +26,11 @@
     "diomac/php-api-rest": "^2.0.1",
     "predis/predis": "^1.1",
     "ext-mysqli": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Diomac\\FrontController\\": "./"
+    }
   },
   "license": "MIT"
 }

@@ -8,7 +8,7 @@ include ROOT_DIR . 'core/autoloader.php';
 spl_autoload_register('autoload');
 
 try {
-    System::init();
+    Server::init();
 } catch (Exception $exception) {
     if (defined('ENVIRONMENT_SERVER') && 'P' !== ENVIRONMENT_SERVER) {
         Debug::dd($exception);
