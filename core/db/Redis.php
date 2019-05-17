@@ -4,13 +4,13 @@
  * User: Dionisio Gabriel R. S. M.
  * GitHub: https://github.com/diomac
  * Date: 17/05/19
- * Time: 09:49
+ * Time: 09:50
  */
 
-namespace Diomac\FrontController\core\authentication;
+namespace Diomac\FrontController\core\db;
 
 
-abstract class User
+abstract class Redis
 {
 
 }

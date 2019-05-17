@@ -1,4 +1,12 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: Dionisio Gabriel R. S. M.
+ * GitHub: https://github.com/diomac
+ * Date: 17/05/19
+ * Time: 09:59
+ */
+
 ini_set('display_errors', 1);
 error_reporting(E_ALL ^ E_NOTICE);
 
@@ -14,5 +22,3 @@ try {
         Debug::dd($exception);
     }
 }
-
-
