@@ -8,5 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Predis\\' => array($vendorDir . '/predis/predis/src'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
+    'Diomac\\FrontController\\' => array($baseDir . '/'),
     'Diomac\\API\\' => array($vendorDir . '/diomac/php-api-rest/src'),
 );

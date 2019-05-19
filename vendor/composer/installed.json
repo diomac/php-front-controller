@@ -1,17 +1,17 @@
 [
     {
         "name": "diomac/php-api-rest",
-        "version": "2.0.1",
-        "version_normalized": "2.0.1.0",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/diomac/php-api-rest.git",
-            "reference": "38959de232843911efd5e4fbba8dc8864ca54d63"
+            "reference": "ccd4c469c5556b793db28fa964ec9161262ab602"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/diomac/php-api-rest/zipball/38959de232843911efd5e4fbba8dc8864ca54d63",
-            "reference": "38959de232843911efd5e4fbba8dc8864ca54d63",
+            "url": "https://api.github.com/repos/diomac/php-api-rest/zipball/ccd4c469c5556b793db28fa964ec9161262ab602",
+            "reference": "ccd4c469c5556b793db28fa964ec9161262ab602",
             "shasum": ""
         },
         "require": {

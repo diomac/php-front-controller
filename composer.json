@@ -23,9 +23,8 @@
   "require": {
     "php": ">=7.2",
     "firebase/php-jwt": "5.0.0",
-    "diomac/php-api-rest": "^2.0.1",
-    "predis/predis": "^1.1",
-    "ext-mysqli": "*"
+    "diomac/php-api-rest": "3.0.0",
+    "predis/predis": "^1.1"
   },
   "autoload": {
     "psr-4": {

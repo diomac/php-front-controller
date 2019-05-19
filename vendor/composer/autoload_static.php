@@ -17,6 +17,7 @@ class ComposerStaticInit2417c3953339c4ad89756b3026ff20b7
         ),
         'D' => 
         array (
+            'Diomac\\FrontController\\' => 23,
             'Diomac\\API\\' => 11,
         ),
     );
@@ -29,6 +30,10 @@ class ComposerStaticInit2417c3953339c4ad89756b3026ff20b7
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+        'Diomac\\FrontController\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
         ),
         'Diomac\\API\\' => 
         array (
